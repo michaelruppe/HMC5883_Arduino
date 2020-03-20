@@ -1,6 +1,7 @@
-#Adafruit HMC5883L Driver (3-Axis Magnetometer) #
+# HMC5883L Driver (3-Axis Magnetometer)
+This driver is based off the [Adafruit_HMC5883L_Unified library](https://github.com/michaelruppe/Adafruit_HMC5883_Unified), which was designed specifically for the Adafruit HMC5883L Breakout (http://www.adafruit.com/products/1746), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor).
 
-This driver is for the Adafruit HMC5883L Breakout (http://www.adafruit.com/products/1746), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor).
+Here, it is being modified to work with generic HMC5883L breakout boards that may have a different device-address than is hard-coded in the original library.
 
 ## About the HMC5883 ##
 
@@ -27,3 +28,4 @@ Light sensors will always report units in lux, gyroscopes will always report uni
 Adafruit invests time and resources providing this open source code.  Please support Adafruit and open-source hardware by purchasing products from Adafruit!
 
 Written by Kevin (KTOWN) Townsend for Adafruit Industries.
+Modified by Michael Ruppe
